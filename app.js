@@ -3,7 +3,7 @@
 var listElem = document.querySelectorAll("#selected-plays > li > ul > li");
 
 // Add class "special"
-for(var i = 0; i < mylis.length; i++){
+for(var i = 0; i < listElem.length; i++){
 	listElem[i].classList.add("special");
 
 }
@@ -12,7 +12,7 @@ for(var i = 0; i < mylis.length; i++){
 var tdElem = document.querySelectorAll("table td:nth-child(3n+3)");
 
 // Add class "year"
-for(var i = 0; i < mytd.length; i++){
+for(var i = 0; i < tdElem.length; i++){
 	tdElem[i].classList.add("year");
 
 }
@@ -21,7 +21,7 @@ for(var i = 0; i < mytd.length; i++){
 var rowElem = document.querySelectorAll("table tr:nth-child(even)");
 
 // Add background color gray
-for(var i = 0; i < myrow.length; i++){
+for(var i = 0; i < rowElem.length; i++){
 	rowElem[i].setAttribute("style", "background-color:grey;");
 
 }
